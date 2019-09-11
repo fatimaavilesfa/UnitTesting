@@ -1,0 +1,24 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './tests/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "unit testing pluralS"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "Fatima",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "rewire": "^4.0.1",
+    "sinon": "^7.3.2"
+  }
+}
